@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "506214591763",
+    "project_id": "weather-edcfa",
+    "storage_bucket": "weather-edcfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506214591763:android:e208b855a9b84a5edffee6",
+        "android_client_info": {
+          "package_name": "kg.tutorial.weathermvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506214591763-fo9vmh7hindtmpgevl02pn84j8olec2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuu-IbK0VPtqjg6BsbzPp4UqZ3M1vKYes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506214591763-fo9vmh7hindtmpgevl02pn84j8olec2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
