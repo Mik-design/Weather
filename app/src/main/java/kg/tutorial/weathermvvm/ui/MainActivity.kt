@@ -123,7 +123,7 @@ class MainActivity : AppCompatActivity() {
         val tv_sunsrise: TextView = findViewById(R.id.tv_sunsrise)
         val tv_sunset: TextView = findViewById(R.id.tv_sunset)
         val tv_humidity: TextView = findViewById(R.id.tv_humidity)
-        var iv_weather_icon: ImageView = findViewById(R.id.iv_weather_icon)
+//        var ivi_weather_icon: ImageView = findViewById(R.id.iv_weather_icon)
 
         tv_temperature.text = it.current?.temp?.roundToInt().toString()
         tv_date.text = it.current?.date.format()
@@ -137,11 +137,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loadWeatherIcon(it: ForeCast) {
-        var iv_weather_icon: ImageView = findViewById(R.id.iv_weather_icon)
+        var ivi_weather_icon: ImageView = findViewById(R.id.iv_weather_icon)
         it.current?.weather?.get(0)?.icon?.let { icon ->
             Glide.with(this)
                 .load("${Constants.iconUri}${icon}${Constants.iconFormat}")
-                .into(iv_weather_icon)
+                .into(ivi_weather_icon)
         }
     }
 
